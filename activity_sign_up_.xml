@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carpooling_2.Sign_up_Activity">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteY="41dp"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/passwtx"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Surname"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Verify Pass"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <EditText
+        android:id="@+id/V_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/RegisterB"
+        android:layout_width="129dp"
+        android:layout_height="45dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+</android.support.constraint.ConstraintLayout>
